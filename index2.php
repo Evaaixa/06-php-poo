@@ -1,9 +1,10 @@
 <?php
 declare(strict_types= 1);
-require 'modelos/perro.php';
-require 'modelos/gato.php';
-require 'modelos/figura.php';
-require 'modelos/planSubscripcion.php';
+require 'modelos/autoload.php';
+// require 'modelos/perro.php';
+// require 'modelos/gato.php';
+// require 'modelos/figura.php';
+// require 'modelos/planSubscripcion.php';
 
 
 $miPerro = new Perro('Tanya', 16, 'Cacri');
