@@ -1,5 +1,4 @@
 <?php
-include_once "modelos/autoload.php";
 include_once "modelos/cuentaBancaria";
 include_once "modelos/convertidorMoneda";
 
@@ -45,3 +44,4 @@ $tasasActuales = ConvertidorMoneda::obtenerTasasActuales();
 foreach($tasasActuales as $key => $valor) {
     echo $key . '' . $valor . '<br>';
 }
+
