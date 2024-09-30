@@ -3,7 +3,7 @@ declare(strict_types= 1);
 
 /**
  * Se declara utilizando la palabra clave interface
- * Todos los métodos de una interfaz deven ser públicos
+ * Todos los métodos de una interfaz deben ser públicos
  * No pueden contener propiedades o variables de instancia
  * Una clase puede implementar varias interfaces
  * Las clases que implementan una interfax deben proporcionar una implementación para todos los métodos declarados en la interfaz
